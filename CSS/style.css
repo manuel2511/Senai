@@ -1,0 +1,39 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/parede-texturizada-cinza_53876-88964.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707350400&semt=ais);
+    background-size: 200%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.body-border{
+    width: 90%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+hr{
+    border: 1px solid gray;
+}
+.head-cv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+.head-cv-img img{
+    width: 130px;
+}
+.head-person{
+    margin-bottom: -10px;
+}
+.head-person h1{
+    margin-bottom: -20px;
+}
+.resume{
+    text-align: justify;
+}
