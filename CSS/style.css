@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.barraMenu{
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+.menu{
+    display: flex;
+
+}
+.menu li a{
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.menu li a:hover{
+    color: white;
+    border: none;
+}
+.divs{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+.div1{
+    width: 300px;
+    border: 1px solid black;
+    height: 150px;
+}
