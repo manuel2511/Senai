@@ -1,6 +1,15 @@
+:root{
+    --cor-link: black;
+    --cor-link-hover: red;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-link);
 }
 .barraMenu{
     display: flex;
@@ -9,19 +18,22 @@
     justify-content: space-evenly;
     font-size: 2rem;
 }
+#img-logo{
+    border-radius: 50%;
+    width: 150px;
+}
 .menu{
     display: flex;
 
 }
 .menu li a{
-    text-decoration: none;
     border: 1px black solid;
     padding: 10px;
     display: inline-block;
     margin: 10px;
 }
 .menu li a:hover{
-    color: white;
+    color: var(--cor-link-hover);
     border: none;
 }
 .divs{
@@ -29,8 +41,85 @@
     margin: 10px;
     gap: 10px;
 }
-.div1{
-    width: 300px;
+.div1 .div2 .div3{
+    width: 30%;
     border: 1px solid black;
-    height: 150px;
 }
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 50px 0;
+
+}
+.imagemDestaque{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px #888888;
+    margin: auto;
+}
+.imagemDestaque,
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 120px;
+    background-color: #B5D66F;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.sessao-rodape{
+    height: 100%;
+    width: 80%;
+    
+}
+.sessao-rodape,
+.redesSocial{
+    display: flex;
+    align-content: end;
+   
+}
+.containner-logo{
+    display: flex;
+    align-items: center;    
+    width: 35%;
+}
+.logo-footer{
+    width: 40%;
+}
+.logo-footer img{
+    width: 100%;
+}
+.endereco-footer{
+    width: 60%;
+}
+.contato-footer{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redesSocial{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.redesSocial ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.icon-redeSocial-img{
+    width: 30px;
+    padding: 10px;
+}
+svg path {
+    fill: red;
+  }
