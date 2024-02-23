@@ -1,0 +1,143 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #F7F7F7;
+}
+a{
+    text-decoration: none;
+}
+.containner-hender{
+    width: 80%;
+    margin: auto;
+}
+.hender-cabecalho{
+    height: 120px;
+    display: flex;
+}
+.hender-cabecalho-logo{
+    display: flex;
+    justify-content: center;    
+} 
+.hender-cabecalho-logo img{
+    width: 100%;
+}
+.hender-cabecalho-title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.hender-menu{
+    display: flex;
+}
+.hender-menu-itens{
+    display: flex;
+    justify-content: flex-start;
+}
+li{
+    list-style-type: none;
+}
+.itens-menu{
+    padding: 10px;
+    color: black;
+}
+.itens-menu:hover{
+    padding: 10px;
+    color: #F7F7F7;
+    background: gray;
+    border-radius: 5px;
+}
+.containner-banner{
+    width: 100%;
+}
+.containner-banner img{
+    width: 100%;
+}
+.containner-destaques{
+    width: 80%;
+    margin: auto;
+}
+.containner-destaques-imagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+}
+.card-image-destaque{
+    width: 350px;
+    height: 550px;
+    padding: 8px;
+    border-radius: 10px;   
+}
+.card-image-destaque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.card-image-destaque:hover {
+    border: 2px solid lightgray;
+    transition: 40ms;
+    width: 346px;
+    height: 546px;
+}
+.card-image-destaque img {
+    background: #fff;
+    width: 80%;
+    margin-top: 10px;
+}
+.test-destaque{
+    display: flex;
+    background: #fff;
+    width: 80%;
+}
+.card-image-destaque p{
+    text-align: justify;
+    background: #fff;
+    font-size: 0.8rem;
+}
+hr{
+    height: 2px;
+    background-color: lightgray;
+}
+footer{
+    background-color: lightgray;
+}
+.containner-footer{
+    width: 80%;
+    margin: auto;
+    height: 180px;
+    /* border: 1px solid red; */
+}
+.containner-footer-contact-itens{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;   
+}
+.containner-footer-contact-itens a {
+    padding: 5px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.img-footer-contact{
+    height: 20px;
+    margin-right: 5px;
+}
+.containner-footer-direitos p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.7rem;
+        background-color: lightgray;
+}
+.containner-footer-direitos a{
+    font-weight: 700;
+    color: black;
+    
+}
+.containner-footer-direitos a:hover{
+    font-size: 0.8rem;
+}
