@@ -1,32 +1,31 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 200px);
-    grid-template-areas: "header  header header header"
-                                      "main main . sidebar"
-                                      "footer footer footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 3fr 1fr;
+
+    grid-template-areas: "logo navbar"
+                                      "sidebar main"
+                                      "sidebar footer" ;
+    row-gap: 10px ;
+    column-gap: 10px;
 }
-.container{
-    display: grid;
-    border: 2px solid black;
+.logo{
+    background-color: lightsalmon;
+    grid-area: logo;
 }
-header{
-    background-color: orange;
-    grid-area: header;
-}
-main{
-    background-color: lightskyblue;
-    grid-area: main;
+nav{
+    background-color: yellow;
+    grid-area: navbar;
 }
 aside{
-    background-color: coral;
+    background-color: palevioletred;
     grid-area: sidebar;
 }
+main{
+    background-color: burlywood;
+    grid-area: main;
+}
 footer{
-    background-color: greenyellow;
-    grid-area: footer;
+    background-color: lightblue;
+    grid-area: footer ;
 }
