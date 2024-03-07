@@ -1,0 +1,134 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 0.3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-auto-columns: 1fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Logo Logo Logo"
+    "menu menu menu"
+    "box1-left box-center box1-right"
+    "box2-left box-center box2-right"
+    "box2-left . box3-right"
+    "box2-left . .";
+}
+.box1-left ,
+.box2-left ,
+.box-center ,
+.box1-right ,
+.box2-right ,
+.box3-right {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.Logo {
+  grid-area: Logo;
+  display: flex;
+  justify-content: center;
+  color: white;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.menu {
+  grid-area: menu;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.box1-left {
+  grid-area: box1-left;
+  grid-row: auto;
+}
+
+.box2-left {
+  grid-area: box2-left;
+}
+.box2-left img {
+  margin-bottom: 10px;
+  width: 90%;
+  margin: 0px auto;
+}
+.box-center {
+  grid-area: box-center;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-center img{
+  border-radius: 100%;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.box1-right {
+  grid-area: box1-right;
+}
+.box1-right a{
+  margin: 0px -10px -10px -10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.box2-right {
+  grid-area: box2-right;
+}
+.box2-right .title{
+  background-color: deepskyblue;
+  margin: 20px -10px;
+}
+
+.box3-right {
+  grid-area: box3-right;
+}
+
+html,
+body,
+.container {
+  /* height: 100%; */
+  margin: 0;
+  background-color: cadetblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+   
+}
+.menu ul li{
+    list-style: none;
+    font-size: 1.7rem;    
+}
+.menu ul li a{
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+  .title{
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  .leiamais{
+    color: red;
+    text-decoration: none;
+  }
+  #leiamaisvermelho{
+    background-color: red;
+    width: auto;
+    color: white;
+    height: 50px;
+    
+  }

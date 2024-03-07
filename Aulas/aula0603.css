@@ -1,0 +1,33 @@
+body {
+  background-color: aquamarine;
+}
+@media (min-width: 600px) and ( max-width: 1000px) {
+    body{
+        background-color: cadetblue;
+    }
+}
+@media ( max-width: 600px) {
+  body {
+    background-color: blueviolet;
+  }
+  h1 {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+  }
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+@media only print {
+    table, td{
+        border: 1px solid red;
+    }
+}
+@media only screen {
+    h1{
+        display: none;
+    }
+}
