@@ -9,57 +9,71 @@ body {
   min-height: 100vh;
 }
 header {
-  grid-area: header;
   background-color: lightgray;
   color: white;
   display: flex;
   height: 100px;
 }
 .page80 {
-  width: 80%;
-  margin: auto;
+    width: 80%;
+    margin: auto;
 }
 header .page80 {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 .hender-logo {
-  width: 30%;
+    width: 30%;
 }
 .hender-logo img {
-  width: 150px;
+    width: 150px;
 }
 .hender-title h3 {
-  font-size: 3rem;
-  font-weight: normal;
-  color: #015ca9;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #015ca9;
 }
+@media (max-width: 768px) {
+    .page80 {
+        width: 100%;
+      }
+      .hender-logo {
+        padding: 10px;
+      }
+      .hender-logo img {
+        width: 100px;
+      }
+      .hender-title h3 {
+        font-size: 1.8rem;
+      }
+  }
 .main-sistem {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
 }
+
 .menu {
-  width: 20%;
-  border: #015ca9;
-  border-right: 2px solid #015ca9;
+    width: 20%;
+    border: #015ca9;
+    border-right: 2px solid #015ca9;
 }
 .menu-list {
-  list-style: none;
+    list-style: none;
 }
 .h3-header{
     margin-left: 10px;
 }
 .menu-list li a {
-  background-color: #015ca9;
-  color: white;
-  display: block;
-  border-radius: 5px;
-  padding: 5px;
-  text-align: center;
-  margin: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s;
+    background-color: #015ca9;
+    color: white;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 .menu-list li a:hover {
     color: #015ca9;
@@ -68,13 +82,27 @@ header .page80 {
     padding: 3px;
 }
 .links {
-  width: 20%;
-  border-left: 2px solid #015ca9;
+    width: 20%;
+    border-left: 2px solid #015ca9;
 }
 
 main {
-  grid-area: main;
-  width: 60%;
+    width: 60%;
+}
+@media (max-width: 768px) {
+    .main-sistem {
+        display: block;
+    }
+    .menu {
+        width: 100%;
+      }
+      .links {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        margin-bottom: 30px;
+      }
 }
 h1 {
   text-align: center;
