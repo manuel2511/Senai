@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Grid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="page80">
+        <div class="hender-logo">
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><img
+              src="https://www.senaimg.com.br/aprendizagem/img/logo-senai.svg"
+              alt="Logo-Senai"
+          /></a>
+        </div>
+        <div class="hender-title">
+          <h3>Sistema de Chamadas</h3>
+        </div>
+      </div>
+    </header>
+    <div class="main-sistem page80">
+      <nav class="menu">
+        <h3 class="h3-header">Menu</h3>
+        <hr />
+        <ul class="menu-list">
+          <li class="menu-itens"><a href="#">Cadastro</a></li>
+          <li class="menu-itens"><a href="#">Matricula</a></li>
+          <li class="menu-itens"><a href="#">Relatório</a></li>
+          <li class="menu-itens"><a href="#">Configuração</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h1>Cadastro de Aluno</h1>
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="form-group">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso" required>
+              <option value="">Selecione o curso</option>
+              <option value="Engenharia">Engenharia</option>
+              <option value="Medicina">Medicina</option>
+              <option value="Direito">Direito</option>
+              <option value="Administração">Administração</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required />
+          </div>
+          <div class="form-group">
+            <label for="endereco">Endereço:</label>
+            <textarea id="endereco" name="endereco" required></textarea>
+          </div>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </main>
+      <nav class="links">
+        <h3 class="h3-header">Links</h3>
+        <hr>
+        <ul class="links-container">
+            <li class="link-itens"><a href="#">Materias</a></li>
+            <li class="link-itens">
+              <a href="#">Alunos</a>
+              <ul class="links-container">
+                <li class="link-itens"><a href="#">Aluno 1</a></li>
+                <li class="link-itens"><a href="#">Aluno 2</a></li>
+                <li class="link-itens"><a href="#">Aluno 3</a></li>
+              </ul>
+            </li>
+            <li class="link-itens"><a href="#">Matricula</a></li>
+          </ul>
+      </nav>
+    </div>
+    <footer>
+      <div class="page80">
+        <p>Todos os direitos reservados a Turma1 RPV2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
