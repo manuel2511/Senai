@@ -1,0 +1,5 @@
+.carousel-item {
+    height: 80vh;
+    object-fit: fill;
+    position: static;
+}
