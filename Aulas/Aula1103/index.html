@@ -13,134 +13,695 @@
     />
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
-  <body >
+  <body>
     <!-- Nav Bar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="IMG/logo.jpg" alt="Logo" width="50px">
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Sobre Nós</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Cardápio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Local</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2 "
-              type="search"
-              placeholder="Pesquisar"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Buscar
-            </button>
-          </form>
-          
+    <header class="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="IMG/logo.png" alt="Logo" width="50px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Sobre Nós</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Cardápio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Local</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <!-- Nav Bar  -->
-    <!-- Carrocel -->
-    <div id="carousel-cooffeCia " class="carousel slide" data-bs-ride="carousel">
+    <main class="container-main">
+      <!-- Carrocel -->
+      <div
+        id="carousel-cooffeCia "
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel-cooffeCia " data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel-cooffeCia " data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel-cooffeCia " data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-cooffeCia "
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-cooffeCia "
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-cooffeCia "
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src="https://plus.unsplash.com/premium_photo-1674931348670-68936350ed55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100"  alt="...">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1674931348670-68936350ed55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100"
+              alt="..."
+            />
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 h-100" alt="...">
+            <img
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 h-100" alt="...">
+            <img
+              src="https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-cooffeCia " data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-cooffeCia "
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-cooffeCia " data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-cooffeCia "
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <!-- Carrocel -->
-    <!-- Typography Name Source-->
-    <figure class="text-center mt-5">
-        <blockquote class="blockquote fw-lighter ">
+      <!-- Carrocel -->
+      <!-- Typography Name Source-->
+      <figure class="text-center mt-5">
+        <blockquote class="blockquote fw-lighter">
           <p class="">O amor é um café às oito da manhã numa segunda.</p>
         </blockquote>
-        <figcaption class="blockquote-footer fw-lighter  fst-italic">
-          Fulano de tal in  <cite title="Source Title">Revista FOX</cite>
+        <figcaption class="blockquote-footer fw-lighter fst-italic">
+          Fulano de tal in <cite title="Source Title">Revista FOX</cite>
         </figcaption>
       </figure>
-    <!-- Typography -->
-    <!-- Cads -->
-    <section class="card-container d-flex col-md-6 align-self-center p-30">
-        <!-- <div class="row"> -->
-            <!-- <div class="col"> -->
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
+      <!-- Typography -->
+      <!-- Cads -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://img.freepik.com/fotos-gratis/deliciosos-graos-de-cafe-e-xicara_23-2150691429.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1710028800&semt=sph"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Somos apaixonados por café</h5>
+                    <h5 class="card-title">
+                      Acreditando que o café pode mudar o mundo
+                    </h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
                   </div>
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="data:image/jpeg;base64,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"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Equipe premium de baristas</h5>
+                    <h6 class="card-title">Equipe premium de baristas</h6>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
                   </div>
-            <!-- </div> -->
-        <!-- </div> -->
-    </section>
-    <!-- Cads -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cads -->
+      <!-- Nav Tabs -->
+      <section id="menu" class="container mt-5">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="expresso-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#expresso"
+              type="button"
+              role="tab"
+              aria-controls="expresso"
+              aria-selected="true"
+            >
+              Expressos
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="capuccino-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#capuccino"
+              type="button"
+              role="tab"
+              aria-controls="capuccino"
+              aria-selected="false"
+            >
+              Capuccinos
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="gelados-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#gelados"
+              type="button"
+              role="tab"
+              aria-controls="gelados"
+              aria-selected="false"
+            >
+              Gelados
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="especial-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#especial"
+              type="button"
+              role="tab"
+              aria-controls="especial"
+              aria-selected="false"
+            >
+              Especiais
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content mt-4" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="expresso"
+            role="tabpanel"
+            aria-labelledby="expresso-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&1/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">expresso1</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&2/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">expresso2</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&3/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">expresso3</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&4/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">expresso4</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&5/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">expresso5</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&6/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">expresso6</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="capuccino"
+            role="tabpanel"
+            aria-labelledby="capuccino-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&7/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">capuccino1</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&8/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">capuccino2</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&9/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">capuccino3</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&10/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">capuccino4</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&11/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">capuccino5</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&12/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">capuccino6</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="gelados"
+            role="tabpanel"
+            aria-labelledby="Gelados-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&13/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">gelados1</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&814"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">gelados2</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&15/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">gelados3</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&16/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">gelados4</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&17/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">gelados5</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&18/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">gelados6</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="especial"
+            role="tabpanel"
+            aria-labelledby="especial-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&19/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">especial1</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&20/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">especial2</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&21/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">especial3</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&22/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">especial4</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&23/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">especial5</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?coffee&24/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">especial6</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Nav Tabs -->
+      <!-- Modal  Localização-->
+      <section id="local" class="container text-center mt-5">
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Quero Conhecer
+        </button>
 
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Star Wars Cooffe
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Estamos te esperado na nossas lojas!
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59550.46919723723!2d-42.976179776132824!3d-21.116380221808058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa3195a230fd9d1%3A0x319b198b4d9bda31!2zVWLDoSwgTUcsIDM2NTAwLTAwMA!5e0!3m2!1spt-BR!2sbr!4v1710288656852!5m2!1spt-BR!2sbr"
+                  width="450"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="mt-3"
+                ></iframe>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-outline-success"
+                  data-bs-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Modal Localização -->
+    </main>
+    <!-- Footer -->
+    <footer class="bg-secondary bg-gradient mt-5 text-center">
+      <div class="container-footer">
+        <a href="">
+          <img src="IMG/logo.png" alt="logo" >
+        </a>
+        <span class="text-footer">
+          Star Wars Cooffe | Café de qualidade
+        </span>
+        <span class="text-footer-number ">
+          32 99999-1111
+        </span>
+      </div>
+      <span class="cooffe-whatsapp">
+        <a href="">
+          <img src="IMG/whatsapp.png" alt="whatsapp" >
+        </a>
+      </span>
+    </footer>
+    <!-- Footer -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

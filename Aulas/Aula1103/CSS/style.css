@@ -1,5 +1,40 @@
+main{
+    margin-top: 5rem;
+}
 .carousel-item {
     height: 80vh;
     object-fit: fill;
     position: static;
+}
+.card img{
+    height: 300px;
+    object-fit: cover;
+}
+.card-text{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer a img{
+    width: 50px;
+}
+.text-footer{
+    font-weight: Bold;
+    text-transform: uppercase;   
+}
+.cooffe-whatsapp{
+    width: 10px;
+}
+.cooffe-whatsapp a img{
+    width: 180px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
 }
