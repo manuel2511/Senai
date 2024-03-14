@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    font-family: "Architects Daughter", cursive;
+}
+.container-fluid a img{
+    width: 150px;
+}
+button .btn-pink {
+    background-color: white;
+    color: pink;
+    border-radius: 50%;
+}
+button:hover , .btn-pink:hover{
+    background:pink ;
+    color: white;
+    border-radius: 50%;
+}
+main{
+    margin-top: 5rem;
+}
+.carousel button{
+    margin: auto;
+    height: 5rem;
+    width: 5rem;
+}
+.historia .container .row .col p{
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight:bold ;
+}
+.text-pink{
+    color: pink;
+    font-weight: bold;
+}
+cite{
+    color: skyblue;
+    font-weight: bold;
+}
+.card img{
+    height: 300px;
+    object-fit: cover;
+}
+.card-text{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+footer{
+    height: 200px;
+}
+footer hr{
+    border: 3px solid pink;
+}
+footer h3{
+    color: pink;
+}
+footer h4,
+strong{
+    color: skyblue;
+}
+footer a {
+    text-decoration: none;
+}
+#inputnome,
+#inputemail{
+    color: pink;
+    background-color: aliceblue;
+    border-color: skyblue;
+}
+#btn-pink-nav,
+#btn-pink-form,
+#btn-pink-localizacao,
+#btn-pink-localizacao-section{
+    color:pink ;
+    border-color: pink;
+    border-radius: 50%;
+}
+#btn-pink-nav:hover,
+#btn-pink-form:hover,
+#btn-pink-localizacao-section:hover,
+#btn-pink-localizacao:hover{
+    color:white ;
+}
+.redesSociais{
+    margin: 5px;
+}

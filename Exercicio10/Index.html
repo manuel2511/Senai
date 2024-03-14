@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <section class="logoHender">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="IMG/Logo1.png" alt="Logo My Lojinha" srcset="">
+                  </a>
+                  <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">novidades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">meninas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">meninos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">bazar</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="o que você proucuda?" aria-label="Search">
+                      <button id="btn-pink-nav" class="btn btn-pink" type="submit">Pesquisar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </section>
+    </header>
+    <main class="containerMain">
+        <section class="banner">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="IMG/Roupasinfantis.png" class="d-block w-100" alt="Roupasinfantis">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IMG/Novidades.png" class="d-block w-100" alt="Novidades">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IMG/Look.png" class="d-block w-100" alt="Look">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="tipografia mt-5">
+          <figure class="text-center">
+            <blockquote class="blockquote ">
+              <p class="text-pink">Venha conferir nossas Ofertas!!!</p>
+            </blockquote>
+            <figcaption class="blockquote">
+              <cite title="Source Title">Seus filhos em primeiro lugar.</cite>
+            </figcaption>
+          </figure>
+        </section>
+        <section class="historia mt-5">
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col col-lg-4">
+                <img src="IMG/Montagem de fotos rosa divertida de criança.png" style="width: 400px;" class="" alt="">
+              </div>
+              <div class="col col-lg-4 mt-3">
+                <p>A Minha Lojinha é mais do que uma marca de roupa infantil. Com coleções para meninas, meninos e bebês, celebramos a energia e a curiosidade da fase mais especial da vida.
+                  Nossas estampas e modelagens incentivam o brincar, essencial para o desenvolvimento infantil, e é por isso que cada uma de nossas peças é um convite à imaginação. Queremos valorizar as infâncias de ontem e de hoje, sonhar por um futuro com mais brincadeiras e vestir as children de sonhos e alegrias.
+                  Afinal, brincar é urgente, do avesso, de trás pra frente, em todas as idades e em qualquer lugar..</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+        <section class="cards-lists">
+      <section id="menu" class="container mt-5">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="novidades-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#novidades"
+              type="button"
+              role="tab"
+              aria-controls="novidades"
+              aria-selected="true"
+            >
+              Novidades
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="meninas-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#meninas"
+              type="button"
+              role="tab"
+              aria-controls="meninas"
+              aria-selected="false"
+            >
+              Meninas
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="meninos-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#meninos"
+              type="button"
+              role="tab"
+              aria-controls="meninos"
+              aria-selected="false"
+            >
+              Meninos
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="bazar-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#bazar"
+              type="button"
+              role="tab"
+              aria-controls="bazar"
+              aria-selected="false"
+            >
+              Bazar
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content mt-4" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="novidas"
+            role="tabpanel"
+            aria-labelledby="novidades-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&1/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">novidades1</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&2/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">novidades2</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&3/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">novidades3</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&4/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">novidades4</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&5/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">novidades5</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&6/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">novidades6</h5>
+                    <p class="card-text">R$ 10,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="meninas"
+            role="tabpanel"
+            aria-labelledby="meninas-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&7/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninas1</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&8/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninas2</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&9/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninas3</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&10/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninas4</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&11/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninas5</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&12/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninas6</h5>
+                    <p class="card-text">R$ 15,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="meninos"
+            role="tabpanel"
+            aria-labelledby="meninos-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&13/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninos1</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&814"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninos2</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&15/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninos3</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&16/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninos4</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&17/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninos5</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&18/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">meninos6</h5>
+                    <p class="card-text">R$ 20,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="bazar"
+            role="tabpanel"
+            aria-labelledby="bazar-tab"
+          >
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&19/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">bazar1</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&20/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">bazar2</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&21/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">bazar3</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&22/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">bazar4</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&23/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">bazar5</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="http://source.unsplash.com/random/?children&24/"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">bazar6</h5>
+                    <p class="card-text">R$ 25,00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        </section>
+        <section class="localizacao text-center mt-5">
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header ">
+                  <h5 class="modal-title " id="exampleModalToggleLabel">Minha Localização</h5>
+                  <button  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29775.241883998133!2d-42.95557952254967!3d-21.116343921377123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa3195a230fd9d1%3A0x319b198b4d9bda31!2zVWLDoSwgTUcsIDM2NTAwLTAwMA!5e0!3m2!1spt-BR!2sbr!4v1710379744529!5m2!1spt-BR!2sbr" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button id="btn-pink-localizacao" class="btn " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a id="btn-pink-localizacao-section" class="btn btn-pink" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Minha Localização</a>
+        </section>
+    </main>
+    <footer>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h3>cadastre-se:</h3>
+            <h4>e ganhe 20% de descont na primeira compra.</h4>
+            <form class="row g-3">
+              <div class="col-auto">
+                <label for="inputnome" class="visually-hidden">seu e-mail</label>
+                <input type="text" class="form-control" id="inputnome" placeholder="seu nome *">
+              </div>
+              <div class="col-auto">
+                <label for="inputemail" class="visually-hidden">seu e-mail</label>
+                <input type="email" class="form-control" id="inputemail" placeholder="seu e-mail *">
+              </div>
+              <div class="col-auto">
+                <button id="btn-pink-form" type="submit" class="btn btn-pink mb-3">enviar</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-4">
+            <h4>Fique sempre pertinho <br>
+                    do mundo My Lojinha!</h4>
+            <span >
+              <a href="https://www.facebook.com/manuel.machado.182" target="_blank" rel="noopener noreferrer">
+                <svg class="redesSociais" xmlns="http://www.w3.org/2000/svg" width="30.081" height="29.899" viewBox="0 0 30.081 29.899"><path d="M30.643,15.6a15.04,15.04,0,1,0-17.39,14.858V19.951H9.432V15.6h3.821V12.289c0-3.769,2.244-5.851,5.681-5.851a23.147,23.147,0,0,1,3.367.294v3.7H20.4a2.174,2.174,0,0,0-2.451,2.349V15.6h4.171l-.667,4.348h-3.5V30.461A15.241,15.241,0,0,0,25.645,26.8,14.845,14.845,0,0,0,30.643,15.6Z" transform="translate(-0.563 -0.563)" fill="pink"></path></svg>
+              </a>
+              <a href="https://www.youtube.com/@manuelmachado4633" target="_blank" rel="noopener noreferrer">
+                <svg class="redesSociais" xmlns="http://www.w3.org/2000/svg" width="35.995" height="27.002" viewBox="0 0 35.995 27.002"><path d="M35.761,10.462a5.466,5.466,0,0,0-5.2-5.709C26.663,4.57,22.69,4.5,18.633,4.5H17.367c-4.05,0-8.03.07-11.925.253a5.478,5.478,0,0,0-5.2,5.723C.07,12.98-.007,15.483,0,17.986S.07,22.992.239,25.5a5.484,5.484,0,0,0,5.2,5.73c4.092.19,8.29.274,12.558.267q6.412.021,12.558-.267a5.485,5.485,0,0,0,5.2-5.73c.169-2.51.246-5.013.239-7.523Q36.014,14.224,35.761,10.462ZM14.555,24.884V11.067l10.2,6.9Z" transform="translate(0 -4.5)" fill="pink"></path></svg>
+              </a>
+              <a href="https://www.instagram.com/manuelgmachado/" target="_blank" rel="noopener noreferrer">
+                <svg class="redesSociais" xmlns="http://www.w3.org/2000/svg" width="29.905" height="29.899" viewBox="0 0 29.905 29.899"><path d="M14.951,9.521a7.666,7.666,0,1,0,7.666,7.666A7.653,7.653,0,0,0,14.951,9.521Zm0,12.649a4.984,4.984,0,1,1,4.984-4.984,4.993,4.993,0,0,1-4.984,4.984ZM24.718,9.208A1.788,1.788,0,1,1,22.93,7.42,1.784,1.784,0,0,1,24.718,9.208Zm5.077,1.815A8.848,8.848,0,0,0,27.38,4.758a8.906,8.906,0,0,0-6.265-2.415c-2.468-.14-9.867-.14-12.336,0A8.894,8.894,0,0,0,2.515,4.751,8.877,8.877,0,0,0,.1,11.016c-.14,2.468-.14,9.867,0,12.336a8.848,8.848,0,0,0,2.415,6.265A8.918,8.918,0,0,0,8.78,32.031c2.468.14,9.867.14,12.336,0a8.848,8.848,0,0,0,6.265-2.415,8.906,8.906,0,0,0,2.415-6.265c.14-2.468.14-9.861,0-12.329ZM26.606,26a5.046,5.046,0,0,1-2.842,2.842c-1.968.781-6.638.6-8.813.6s-6.852.173-8.813-.6A5.046,5.046,0,0,1,3.3,26c-.781-1.968-.6-6.638-.6-8.813s-.173-6.852.6-8.813A5.046,5.046,0,0,1,6.138,5.532c1.968-.781,6.638-.6,8.813-.6s6.852-.173,8.813.6a5.046,5.046,0,0,1,2.842,2.842c.781,1.968.6,6.638.6,8.813S27.387,24.039,26.606,26Z" transform="translate(0.005 -2.238)" fill="pink"></path></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/manuelgmachado/" target="_blank" rel="noopener noreferrer">
+                <svg class="redesSociais" xmlns="http://www.w3.org/2000/svg" width="35.000" height="35.000" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" transform="translate(0 -4.5)" fill="pink"></path></svg>
+              </a>
+            </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <span>Todos os direitos reservados <a href=""><strong>Manuel Machado</strong></a></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
