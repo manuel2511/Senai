@@ -11,7 +11,7 @@ button .btn-pink {
     border-radius: 50%;
 }
 button:hover , .btn-pink:hover{
-    background:pink ;
+    background:#E270B6 ;
     color: white;
     border-radius: 50%;
 }
@@ -30,11 +30,11 @@ main{
     font-weight:bold ;
 }
 .text-pink{
-    color: pink;
+    color: #E270B6;
     font-weight: bold;
 }
 cite{
-    color: skyblue;
+    color: #379CA0;
     font-weight: bold;
 }
 .card img{
@@ -50,30 +50,30 @@ footer{
     height: 200px;
 }
 footer hr{
-    border: 3px solid pink;
+    border: 3px solid #E270B6;
 }
 footer h3{
-    color: pink;
+    color: #E270B6;
 }
 footer h4,
 strong{
-    color: skyblue;
+    color: #379CA0;
 }
 footer a {
     text-decoration: none;
 }
 #inputnome,
 #inputemail{
-    color: pink;
+    color: #E270B6;
     background-color: aliceblue;
-    border-color: skyblue;
+    border-color: #379CA0;
 }
 #btn-pink-nav,
 #btn-pink-form,
 #btn-pink-localizacao,
 #btn-pink-localizacao-section{
-    color:pink ;
-    border-color: pink;
+    color:#E270B6 ;
+    border-color: #E270B6;
     border-radius: 50%;
 }
 #btn-pink-nav:hover,
