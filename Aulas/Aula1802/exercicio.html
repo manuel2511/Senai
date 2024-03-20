@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 13 - JS</title>
+  </head>
+  <body>
+    <h1 id="titulo">Introdução a JavaScript</h1>
+    <input id="text" type="text" >
+    <button onclick="changeText()">Entrar</button>
+    <div id="teste">
+        <ul>
+            <li>
+                nada
+            </li>
+            <li>
+                nada
+            </li>
+        </ul>
+    </div>
+
+    <script>
+      function changeText() {
+        let qtd = document.getElementById("text").value ;
+        for (let int = 0; int < qtd; int++) {
+          const teste = document.getElementById("teste");
+          const ul = teste.querySelector("ul");
+          let newli = document.createElement("li");
+          newli.innerHTML = "novo item";
+          ul.appendChild(newli);
+        }
+      }
+    </script>
+  </body>
+</html>
