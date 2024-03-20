@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 24</title>
+  </head>
+  <body>
+    <h1>Exercício 24</h1>
+    <button onclick="alert(atualizar_divida())">Atualizar Divida</button>
+    <script>
+        function atualizar_divida() {
+          let total_divida = 1400;
+          let atualizar_divida = 70; 
+          for (var i = 0; i < 12; i++) {
+            total_divida = total_divida - atualizar_divida
+            console.log(total_divida);
+        }
+        return  "Total da Divida é: "+total_divida;
+      }
+    </script>
+    
+  </body>
+</html>

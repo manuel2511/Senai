@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 20 </title>
+</head>
+<body>
+    <h1>Exercicio 20</h1>
+    <label for="nome">Informe um nome qualquer</label>
+    <input type="text" id="nome" maxlength="100" minlength="2">
+    <button onclick="alert(inverter())">Nome Invertido</button>
+    <br>
+    <script>
+        function inverter() {
+            let nome = document.getElementById("nome").value;
+            let nomeInvertido = '';
+            for (let index = nome.length -1 ; index >= 0; index--) {
+                nomeInvertido += nome[index];
+                
+            }
+            return nomeInvertido;
+        }
+    </script>
+</body>
+</html>

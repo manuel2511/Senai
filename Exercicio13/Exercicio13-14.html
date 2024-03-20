@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 14</title>
+</head>
+<body   >
+    <h1 >Atividade 14</h1>
+    <h3>Passe o mouse sobre a imagem:</h3>
+    <img onclick="mouseEmCima(this)" src="https://logodownload.org/wp-content/uploads/2019/08/senai-logo-2.png"  alt="logo-senai" width="300px" height="300px">
+    <p>Agora padronize os tamanhos das imagens.</p>
+    <p>Mude o evento para que as imagens sejam trocadas ao "clicar" com o mouse.</p>
+    <script>
+        function mouseEmCima(imagem) {
+            imagem.src = "https://logodownload.org/wp-content/uploads/2019/08/senai-logo-1.png"; 
+            
+        }
+        function mouseFora(imagem) {
+            imagem.src = "https://logodownload.org/wp-content/uploads/2019/08/senai-logo-2.png"; 
+        }
+    </script>
+</body>
+</html>
