@@ -1,0 +1,17 @@
+.containner-footer{
+    height: 70px;
+    background-color: orange ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.containner-autor{
+    font-size: 0.7rem;
+    display: flex;
+    padding-right: 5px;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+    margin-bottom: -25px;
+}

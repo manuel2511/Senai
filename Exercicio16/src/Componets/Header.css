@@ -1,0 +1,26 @@
+.containner-header{
+    background-color: orange;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containner-header nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.containner-header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.containner-header a{
+    text-decoration: none;
+    color: black;
+}
+.containner-header a:hover{
+    color: white;
+}
