@@ -19,3 +19,12 @@
 .payments__itens img{
     height: 30px;
 }
+.whatsapp-footer{
+    width: 10px;
+}
+.whatsapp-footer a img {
+    width: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+}

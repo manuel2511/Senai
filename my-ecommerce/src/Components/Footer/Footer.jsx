@@ -5,6 +5,7 @@ import visacard from "../../../src/assets/Footer/cc-visa.svg";
 import mastercard from "../../../src/assets/Footer/cc-mastercard.svg";
 import money from "../../../src/assets/Footer/money-bill-solid.svg";
 import pix from "../../../src/assets/Footer/pix.svg";
+import whatsapp from "../../../src/assets/Footer/whatsapp.png";
 
 const Footer = () => {
   const razaosocial = 'Marceli Bressan Machado CNPJ 00.000.0000-00';
@@ -49,6 +50,11 @@ const Footer = () => {
               </ul>   
           </div>
         </div>
+        <span class="whatsapp-footer">
+        <a href="https://api.whatsapp.com/send?phone=5532988264239&text=Ol%C3%A1!%20Estou%20enteressado%20em%20saber%20mais%20dos%20seus%20produtos,%20estou%20vindo%20do%20site%20da%20empresa.">
+          <img src={whatsapp} alt="whatsapp" />
+        </a>
+      </span>
       </div>
     </di>
   );
