@@ -1,6 +1,10 @@
 import "./Footer.css";
 import InstagramManaKids from "../../../src/assets/Footer/instagram.svg";
 import FacebookManaKids from "../../../src/assets/Footer/facebook.svg";
+import visacard from "../../../src/assets/Footer/cc-visa.svg";
+import mastercard from "../../../src/assets/Footer/cc-mastercard.svg";
+import money from "../../../src/assets/Footer/money-bill-solid.svg";
+import pix from "../../../src/assets/Footer/pix.svg";
 
 const Footer = () => {
   const razaosocial = 'Marceli Bressan Machado CNPJ 00.000.0000-00';
@@ -17,7 +21,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-3">
             <h5>Redes sociais </h5>
-            <section className="redesSociais">
+            <section className="redesSociais mt-3">
               <a href={LinkInstagram} target="_blank" rel="noopener noreferrer">
                 <img src={InstagramManaKids } alt="Siga-nos no Instagram" width={widthRedesSocial} />
               </a>
@@ -28,21 +32,20 @@ const Footer = () => {
           </div>
           <div className="col-md-6">
             <h5>Contatos</h5>
-            <p>{razaosocial}<br/>
-                   {lougradouro}<br/>
-                   {contato}<br/>
-                   {mensagem} </p>
+            <div className="contacts-footer mt-3">
+                <p>{razaosocial}<br/>
+                      {lougradouro}<br/>
+                      {contato}<br/>
+                      {mensagem} </p>
+            </div>
           </div>
-          <div className="col-md-3 payments">
+          <div className="col-md-3  ">
             <h5>Métodos de <br/>pagamento</h5>
-            <ul className="payments__grid" >
-                <li><i className="fa fa-cc-visa" aria-hidden="true">visa</i></li>
-                <li><i className="fa-cc-mastercard" aria-hidden="true">visa</i></li>
-                <li><i className="fas fa-home"></i></li>
-                <li><i className="fa fa-cc-visa" aria-hidden="true">visa</i></li>
-                <li><i className="fa fa-cc-visa" aria-hidden="true">visa</i></li>
-                <li><i className="fa fa-cc-visa" aria-hidden="true">visa</i></li>
-                <li><i className="fa fa-cc-visa" aria-hidden="true">visa</i></li>
+            <ul className="payments__grid d-flex mt-3" >
+                <li className="payments__itens " title="Cartão Visa"><img src={visacard } alt="Siga-nos no Instagram" width={widthRedesSocial} /></li>
+                <li className="payments__itens" title="Cartão Mastercar"><img src={mastercard } alt="Siga-nos no Instagram" width={widthRedesSocial} /></li>
+                <li className="payments__itens" title="Transferência PIX"><img src={pix } alt="Siga-nos no Instagram" width={widthRedesSocial} /></li>
+                <li className="payments__itens" title="Dineiro"><img src={money } alt="Siga-nos no Instagram" width={widthRedesSocial} /></li>
               </ul>   
           </div>
         </div>

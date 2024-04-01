@@ -4,3 +4,18 @@
 .redesSociais a{
     padding-right: 5px;
 }
+.payments__grid{
+    list-style-type:none;
+    padding-left: 0;
+}
+.payments__itens{
+    padding: 5px 8px;
+    border: 2px solid black;
+    display: flex;
+    margin: 2px;
+    align-items: center;
+    border-radius: 5px;
+}
+.payments__itens img{
+    height: 30px;
+}
