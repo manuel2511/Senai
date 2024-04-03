@@ -21,6 +21,22 @@ const Posts = () => {
 
         </div>
       </header>
+      <div className= {styles.content}>
+        <p>Fala Galera</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, veniam impedit ducimus quisquam nihil eaque?</p>
+
+        <p><a href="">web design/projeto</a> </p>
+        <p><a href="">#novoprojeto</a></p>
+
+        <form className={styles.commentsForm} action="">
+          <strong> Deixe seu feedback</strong>
+
+          <textarea placeholder="Deixe seu comentário"></textarea>
+          <div>
+            <button type="submit" >Comentar</button>
+          </div>
+        </form>
+      </div>
     </article>
   );
 };
