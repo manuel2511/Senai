@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Posts from "./components/Posts";
 import styles from "./components/App.module.css";
-import Coments from "./components/Coments";
 function App() {
   return (
     <>
@@ -14,9 +13,6 @@ function App() {
           <main>
             <Posts />
             <Posts />
-            <Coments/>
-            <Coments/>
-            <Coments/>
           </main>
         </div>
       </div>

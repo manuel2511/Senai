@@ -4,7 +4,10 @@ import { ThumbsUp } from "phosphor-react";
 const Coments = () => {
   return (
     <div className={styles.comments}>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Profile-720.png" alt="" />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/41/Profile-720.png"
+        alt=""
+      />
       <div className={styles.commentsBox}>
         <div className={styles.commentsContent}>
           <header>
@@ -13,20 +16,20 @@ const Coments = () => {
               <time title="02/04/2024" dateTime="2024-04-02">
                 Cerca de 1 hora atrás
               </time>
-              <div>
-                <button title="Excluir Comentário"> 
-                    <Trash/>
-                </button>
-              </div>
+            </div>
+            <div>
+              <button title="Excluir Comentário">
+                <Trash />
+              </button>
             </div>
           </header>
-                <p>Muito Bom. Parabens!!!</p>
+          <p>Muito Bom. Parabéns!!!</p>
         </div>
         <footer>
-            <button>
-                <ThumbsUp/>
-                Gostei
-            </button>
+          <button>
+            <ThumbsUp />
+            Apaudir <span>20</span>
+          </button>
         </footer>
       </div>
     </div>

@@ -100,3 +100,6 @@
 .commentsForm button:hover{
     background: var(--green-300);
 }
+.commentsLists{
+    margin-top: 2rem;
+}
