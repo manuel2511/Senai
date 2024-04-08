@@ -1,11 +1,11 @@
-
-import './Home.css';
-const home = () => {
+import CarouselHome from './CarouselHome';
+import styles from './Home.module.css'
+const Home = () => {
   return (
-    <div className='containner-main'>
-      <h1>Home</h1>
+    <div className="containerBody">
+      <CarouselHome/>
     </div>
   )
 }
 
-export default home
+export default Home

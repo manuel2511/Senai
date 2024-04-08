@@ -1,0 +1,12 @@
+.containnerHender {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  transition: height 0.3s ease;
+}
+.containnerHender.scroll {
+  padding: 10px; /* Reduz o preenchimento do cabeçalho quando é rolado */
+}

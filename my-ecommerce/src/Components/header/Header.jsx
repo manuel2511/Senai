@@ -3,18 +3,26 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import "./Header.css";
 import Offcanvas from "react-bootstrap/Offcanvas";
+
 const Header = () => {
   return (
-    <>
+    <div className="containnerHender">
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className=" mb-3">
+        <Navbar key={expand} expand={expand}>
           <Container className="container-Menu">
             <Navbar expand="md" className="">
               <Container className="">
                 <Navbar.Brand href="#">
-                  <img src={LogoManaKids} alt="" width="120px" />
+                  <a href="/">
+                    <img
+                      src={LogoManaKids}
+                      alt="Logo Mana Kids"
+                      width="150px"
+                      className="logo"
+                    />
+                  </a>
                 </Navbar.Brand>
               </Container>
             </Navbar>
@@ -27,7 +35,12 @@ const Header = () => {
               {/* Botão de fechar e Logo menu */}
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  <img src={LogoManaKids} alt="" width="100px" />
+                  <img
+                    src={LogoManaKids}
+                    alt="Logo Mana Kids"
+                    width="100px"
+                    className="logo"
+                  />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -50,7 +63,7 @@ const Header = () => {
           </Container>
         </Navbar>
       ))}
-    </>
+    </div>
   );
 };
 
