@@ -1,0 +1,78 @@
+.contact{
+    margin-top: 150px;
+}
+.containerContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.containerContact .contactContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactCol{
+    width: 300px;
+}
+.contactText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.1rem;
+    margin-top: 10px;
+
+}
+.contactText > h5{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+.contactText > p{
+    font-size: 0.75rem;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.formContainer Form{
+    min-width: 60%;
+}
+.formContainer Form Label{
+    font-size:0.625rem ;
+}
+.formContainer Form input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--black-400);
+}
+.formContainer Form textarea{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--black-400);
+    resize: none;
+}
+.formContainer Form input:focus{
+    box-shadow: none;
+    border-color: var(--black-400);
+}
+.formContainer Form textarea:focus{
+    box-shadow: none;
+    border-color: var(--black-400);
+}
+.formContainer Form .btnSend{
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+}
+.formContainer Form .btnSend button{
+    transition: background-color 0.3s var(--black-400);
+    color: var(--black-400);
+}
+.formContainer Form .btnSend button:hover{
+    font-weight: 500;
+}
+.formContainer Form .btnSend button:focus{
+    border: 0;
+}

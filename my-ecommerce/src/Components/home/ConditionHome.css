@@ -1,0 +1,24 @@
+.rowCondition{
+    height: auto;
+    margin: 20px 0;
+    
+}
+.rowCondition > .col-md-3{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.rowCondition > .col-md-3 > div{
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rowCondition > .col-md-3 > div > p{
+    font-size: 0.875rem;
+    line-height: 0.5rem;
+
+}
+

@@ -8,6 +8,7 @@
 .payments__grid{
     list-style-type:none;
     padding-left: 0;
+    pa
 }
 .payments__itens{
     padding: 5px 8px;
@@ -24,8 +25,8 @@
     width: 10px;
 }
 .whatsapp-footer a img {
-    width: 180px;
+    width: 140px;
     position: fixed;
-    bottom: 20px;
-    right: 35px;
+    bottom: 0px;
+    right: 10px;
 }

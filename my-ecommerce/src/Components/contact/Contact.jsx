@@ -1,8 +1,11 @@
 import './Contact.css';
+import ContactHeader from './ContactHeader';
+import ContactForm from './ContactForm';
 const contact = () => {
   return (
-    <div className="containerBody">
-      <h1>Contato</h1>
+    <div className='contact'>
+      <ContactHeader/>
+      <ContactForm/>
     </div>
   )
 }
