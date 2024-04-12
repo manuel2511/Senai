@@ -1,0 +1,28 @@
+.cardContainner{
+    width: 300px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.cardContainner .card .cardFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardContainner .card .cardFooter hr{
+    width: 20px;
+    padding: 0;
+    margin: 10px 0;
+}
+.cardContainner .card .cardFooter p{
+    padding: 0;
+    margin:0;
+    font-weight: 500;
+}
+.cardContainner .card .cardFooter span{
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
+}

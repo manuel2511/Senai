@@ -47,7 +47,7 @@ const Header = () => {
                 <Nav className="justify-content-start flex-grow-1 pe-3">
                   <Nav.Link href="/">Página Inicial</Nav.Link>
                   <Nav.Link href="/colecao">Ver Coleção</Nav.Link>
-                  <Nav.Link href="/sobre">Sobre</Nav.Link>
+                  <Nav.Link href="/sobre">Nossa História</Nav.Link>
                   <Nav.Link href="/contato">Contato</Nav.Link>
                 </Nav>
                 <Form className="d-flex">

@@ -1,10 +1,14 @@
-import  './Colection.css'
+import "./Colection.css";
+import ColectionCard from "./ColectionCard";
 const Colection = () => {
   return (
-    <div className="containerBody">
-      <h1>Coleção</h1>
+    <div className="colectionContainer">
+      <h1>Comprar produto</h1>
+      <div className="cardsColections">
+        <ColectionCard />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Colection
+export default Colection;
