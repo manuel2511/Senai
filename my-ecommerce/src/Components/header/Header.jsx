@@ -5,7 +5,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Header.css";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { MagnifyingGlass  } from "@phosphor-icons/react";
+import ShoppingCartHeader from "./ShoppingCartHeader";
+import IconLoginHeader from "./IconLoginHeader";
 
+const iconSize = 32;
 const Header = () => {
   return (
     <div className="containnerHender">
@@ -19,7 +23,7 @@ const Header = () => {
                     <img
                       src={LogoManaKids}
                       alt="Logo Mana Kids"
-                      width="150px"
+                      width="120px"
                       className="logo"
                     />
                   </a>
@@ -33,7 +37,7 @@ const Header = () => {
               placement="end"
             >
               {/* Botão de fechar e Logo menu */}
-              <Offcanvas.Header closeButton>
+              <Offcanvas.Header closeButtonMenu>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <img
                     src={LogoManaKids}
@@ -50,17 +54,22 @@ const Header = () => {
                   <Nav.Link href="/sobre">Nossa História</Nav.Link>
                   <Nav.Link href="/contato">Contato</Nav.Link>
                 </Nav>
-                <Form className="d-flex">
-                  <Form.Control
-                    type="search"
-                    placeholder="Pesquisar..."
-                    className="me-2"
-                    aria-label="Search"
-                  />
-                </Form>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
+          <Form className="d-flex searchHeader">
+          <MagnifyingGlass Size = {iconSize} />
+            <Form.Control
+              type="search"
+              placeholder= " Pesquisar..."
+              className="me-2 searchHeaderForm"
+              aria-label="Search"
+            />
+          </Form>
+          <div className="loginAndShoppingCart">
+            <IconLoginHeader/>
+            <ShoppingCartHeader/>
+          </div>
         </Navbar>
       ))}
     </div>

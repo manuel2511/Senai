@@ -1,0 +1,32 @@
+.ContainnerMenuFilter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContainnerMenuFilter > p{
+    font-size: 1.5rem;
+}
+.accordion-button{
+    margin-right: 10px;
+    line-height: 0.6rem;
+}
+.accordion-header{
+    line-height: 0.6rem;
+}
+.accordion-button:not(.collapsed) {
+    background: transparent;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.FormMenuFilter{
+    display: flex;
+    flex-direction: column;
+}
+.FormMenuFilter{
+    display: flex;
+    flex-direction: column;
+}
+.FormMenuFilter label{
+    padding-left: 10px;
+}

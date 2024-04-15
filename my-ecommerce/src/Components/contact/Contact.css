@@ -14,6 +14,9 @@
 .contactCol{
     width: 300px;
 }
+.contactRow{
+    justify-content: center;
+}
 .contactText{
     display: flex;
     flex-direction: column;

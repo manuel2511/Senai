@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import "./ColectionCard.css";
 const ColectionCard = () => {
   return (
-    <div className="cardContainner">
+    <a href="./ColecaoItem"  className="cardContainner">
       <Card>
         <Card.Img
           variant="top"
@@ -10,7 +10,7 @@ const ColectionCard = () => {
         />
         <Card.Body>
           <div className="cardFooter">
-            <p>Produto 1</p>
+            <p>Camisa Verde</p>
             <hr />
             <div className="cardCash">
               <span>À vista</span>
@@ -23,7 +23,7 @@ const ColectionCard = () => {
           </div>
         </Card.Body>
       </Card>
-    </div>
+    </a>
   );
 };
 

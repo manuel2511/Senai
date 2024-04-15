@@ -1,6 +1,14 @@
 .colectionContainer{
     margin-top: 150px;
 }
+.colectionContainer h3{
+    display: flex;
+    justify-content: center;
+}
 .cardsColections{
     display: flex;
+}
+.ColectionMenu{
+    display: flex;
+    flex-direction: column;
 }

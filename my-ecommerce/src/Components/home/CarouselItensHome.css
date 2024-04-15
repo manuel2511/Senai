@@ -1,0 +1,18 @@
+.containnerCarouselItens > .nav{
+    padding: 40px;
+}
+.containnerCarouselItens .nav .carouselLink{
+    color: var(--black-400);
+    width: 120px;
+    border: 1px solid var(--black-400);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s linear 0.1s;
+}
+.containnerCarouselItens .nav .carouselLink:hover{
+    color: var(--white);
+    background: var(--black-400);
+    border: 1px solid var(--white);
+}

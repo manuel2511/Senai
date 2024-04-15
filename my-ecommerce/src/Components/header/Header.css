@@ -10,3 +10,46 @@
 .containnerHender.scroll {
   padding: 10px; /* Reduz o preenchimento do cabeçalho quando é rolado */
 }
+.searchHeader{
+  align-items: center;
+}
+.searchHeader > .searchHeaderForm{
+  box-shadow: none;
+  border-radius: none;
+  border: 0px;
+  padding-left: 0;
+}
+.loginAndShoppingCart{
+  display: flex;
+  padding: 0 20px;
+}
+.loginAndShoppingCart > .iconLogin{
+  display: flex;
+}
+.loginAndShoppingCart > .iconShoppingCart{
+  display: flex;
+  margin-left: 10px;
+}
+.iconShoppingCart > span{
+  color: var(--white);
+  background:var(--black-400);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  font-size:0.5 ;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  right: 6px;
+  top: 22px;
+}
+@media screen and (max-width: 600px) {
+  .iconShoppingCart > span{
+    top: 75px;
+  }
+  .logo{
+    width: 90px;
+  }
+}

@@ -1,10 +1,14 @@
 .cardContainner{
-    width: 300px;
+    width: 250px;
+    border: none;
+    background: transparent;
+    text-decoration: none;
 }
 .card{
     display: flex;
     align-items: center;
-    border: none;
+    border: none;  
+    
 }
 .cardContainner .card .cardFooter{
     display: flex;
@@ -25,4 +29,9 @@
     font-size: 0.75rem;
     margin: 0;
     padding: 0;
+}
+
+.ColectionItemContainner{
+    margin-top: 150px;
+    height: 500px;
 }
